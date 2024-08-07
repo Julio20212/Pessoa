@@ -1,0 +1,23 @@
+package sem2;
+
+public class ObjetosCarro {
+
+	public static void main(String[] args) {
+		
+	Carro carro1 = new Carro();
+
+	carro1.setMarca("Volksvagem");	
+	carro1.setModelo("Saveiro");	
+	carro1.setCor("Amarelo");	
+	carro1.setAno("2010");	
+	
+	System.out.println("----- OBJETO 1 -----");
+	System.out.println(carro1.getMarca());
+	System.out.println(carro1.getModelo());
+	System.out.println(carro1.getCor());
+	System.out.println(carro1.getAno());
+	
+	
+	}
+
+}
